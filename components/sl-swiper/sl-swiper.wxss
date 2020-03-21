@@ -1,0 +1,14 @@
+/* components/sl-swiper/sl-swiper.wxss */
+/* .swiper{
+  width: 100%;
+  height: 390rpx;
+} */
+
+.swiper-item image{
+  width: 100%;
+  height: 100%;
+}
+/* .swiper_class {
+  width: 100% !important;
+  height: 390rpx !important;
+} */

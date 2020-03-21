@@ -1,2 +1,12 @@
 <!--pages/home/home.wxml-->
-<text>hello world !</text>
+<sl-swiper  swiper_class="swiper" banners="{{banners}}"/>
+<sl-recommend recommends="{{recommends}}"/>
+<sl-popular/>
+<sl-tab-control  class="home-tab-control" titles="{{titles}}" bind:titleClick="titleClick"/>
+<sl-goods goods="{{goods[currentType].list}}"/>
+
+
+  
+
+  
+

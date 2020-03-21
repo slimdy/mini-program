@@ -1,3 +1,11 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "sl-tab-control":"/components/sl-tab-control/sl-tab-control",
+    "sl-swiper":"/components/sl-swiper/sl-swiper",
+    "sl-recommend":"./childComps/sl-recommend/sl-recommend",
+    "sl-popular":"./childComps/sl-popular/sl-popular",
+    "sl-goods":"./childComps/sl-goods/sl-goods"
+  },
+  "navigationBarTitleText": "购物街",
+  "onReachBottomDistance":50
 }

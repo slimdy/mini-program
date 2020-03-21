@@ -1,0 +1,6 @@
+<!--pages/home/childComps/sl-goods/sl-goods.wxml-->
+<view class="goods">
+  <block wx:for="{{goods}}" wx:key="index">
+    <sl-goods-item class="goods-item" item="{{item}}"/>
+  </block>
+</view>

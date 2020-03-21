@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sl-goods-item":"/components/sl-goods-item/sl-goods-item"
+  }
+}
