@@ -6,6 +6,7 @@
   height: 88rpx;
   line-height: 88rpx;
   padding-bottom: 22rpx; 
+ 
 }
 .tab-item{
   color: #555555;

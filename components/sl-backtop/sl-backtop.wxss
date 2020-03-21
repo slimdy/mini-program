@@ -1,0 +1,14 @@
+/* components/sl-backtop/sl-backtop.wxss */
+.backtop{
+  position: fixed;
+  bottom: 30rpx;
+  right: 30rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.backtop image{
+  height: 100%;
+  width: 100%;
+}
+
+

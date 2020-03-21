@@ -4,7 +4,8 @@
     "sl-swiper":"/components/sl-swiper/sl-swiper",
     "sl-recommend":"./childComps/sl-recommend/sl-recommend",
     "sl-popular":"./childComps/sl-popular/sl-popular",
-    "sl-goods":"./childComps/sl-goods/sl-goods"
+    "sl-goods":"./childComps/sl-goods/sl-goods",
+    "sl-backtop": "/components/sl-backtop/sl-backtop"
   },
   "navigationBarTitleText": "购物街",
   "onReachBottomDistance":50

@@ -1,0 +1,4 @@
+<!--components/sl-backtop/sl-backtop.wxml-->
+<view class="backtop" bind:tap="backtopClick">
+    <image src="/assets/images/common/top.png"/>
+</view>

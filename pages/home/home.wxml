@@ -1,9 +1,11 @@
 <!--pages/home/home.wxml-->
 <sl-swiper  swiper_class="swiper" banners="{{banners}}"/>
-<sl-recommend recommends="{{recommends}}"/>
+<sl-recommend recommends="{{recommends}}" bind:imageLoad = "imageLoad"/>
 <sl-popular/>
-<sl-tab-control  class="home-tab-control" titles="{{titles}}" bind:titleClick="titleClick"/>
+<sl-tab-control  id="tab-control" class="home-tab-control tab-control" titles="{{titles}}" bind:titleClick="titleClick"/>
+<sl-tab-control  style="display:{{isFixed?'flex':'none'}};" id="tab-control1" class="home-tab-control-sticky tab-control" titles="{{titles}}" bind:titleClick="titleClick"/>
 <sl-goods goods="{{goods[currentType].list}}"/>
+<sl-backtop wx:if="{{isShow}}" bind:backTop="backtop"/>
 
 
   
